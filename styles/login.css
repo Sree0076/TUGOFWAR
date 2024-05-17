@@ -1,0 +1,58 @@
+body{
+background-image: url("../assets/bodyfinal.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+filter: blur(80%);
+filter: blur(100);
+}
+.logo{
+    height: 100px;
+}
+
+
+.logocontainer{
+    /* margin-top: 30px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.login-card{
+    margin-left: 350px;
+    margin-right: 350px;
+    height: max-content;
+    background-color: rgba(240, 248, 255, 0);
+    border-color: rgba(240, 248, 255, 0);
+}
+
+#googlebutton{
+    width: 100%;
+}
+.googlebutton p{
+    padding: 10px;
+    
+    color: black;
+}
+
+
+.googleicon{
+    height: 30px;
+}
+
+#emailbutton{
+    width: 100%;
+}
+.emialicon{
+    height: 30px ;
+}
+label,h3
+{
+    color:white
+}
+p ,a {
+    color: white;
+}
+#email-signup,#login
+{
+    background-color: rgb(33, 31, 31);
+    border-color: rgb(33, 31, 31);;
+}

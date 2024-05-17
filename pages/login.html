@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+        integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../styles/login.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="container mb-5">
+            <div class="logocontainer  text-center">
+                <img class="logo" src="../assets/logo.png" alt="">
+            </div>
+            <div class="card login-card">
+                <div class="card-body">
+                    <div class="text-center createaccount">
+                        <h3 class="fw-bold">Create an Account</h3>
+                    </div>
+
+                    <!-- GOOGLE BUTTON -->
+
+                    <div class="btn btn-dark mt-2" id="googlebutton">
+                        <div class="fw-bold">
+                          <a id="google" ><img  class="googleicon" src="../assets/icons8-google-48.png" alt="" />
+                            Signin with google </a>
+                        </div>
+                    </div>
+
+                    <!-- EMAIL BUTTON -->
+
+                    <div class="btn btn-dark mt-2" id="emailbutton">
+                        <div class="fw-bold">
+                            <img class="emialicon" src="../assets/icons8-email-48.png" alt="" />
+                            Signup with Email
+                        </div>
+                    </div>
+
+                    <div class="btn btn-secondary mt-2 w-100" id="guestbutton">
+                        <div class="fw-bold">Play as Guest</div>
+                    </div>
+                    <div class="text-center mt-2">
+                        <p>
+                            Already have an account?
+                            <a href="#" id="show-login-form">Login</a>
+                        </p>
+                    </div>
+
+                    <!-- login form section -->
+
+                    <div class="form-section" id="login-form">
+                        <h3 class="text-center">Login</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="login-email">Email address</label>
+                                <input type="email" class="form-control" id="login-email" aria-describedby="emailHelp"
+                                    placeholder="Enter email">
+                            </div>
+                            <div class="form-group mt-2">
+                                <label for="login-password">Password</label>
+                                <input type="password" class="form-control" id="login-password" placeholder="Password">
+                            </div>
+                            <button type="submit" id="login" class="btn btn-primary btn-block mt-3 w-100">Login</button>
+                        </form>
+                    </div>
+                    <!-- SIGNUP FORM SECTION -->
+                    <div class="form-section mt-3" id="email-signup-form">
+                        <h3 class="text-center">Signup with Email</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="signup-email">Email address</label>
+                                <input type="email" class="form-control" id="signup-email" aria-describedby="emailHelp"
+                                    placeholder="Enter email">
+                            </div>
+                            <div class="form-group mt-2" >
+                                <label for="signup-password" >Password</label>
+                                <input type="password" class="form-control" id="signup-password" placeholder="Password">
+                            </div>
+                            <button type="submit" id="email-signup"  class="btn btn-primary btn-block mt-3 w-100">Signup</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script type="text/javascript"> 
+        window.history.forward(); 
+        function noBack() { 
+            window.history.forward(); 
+        } 
+    </script> 
+    <script type="module" src="../js/auth.js"></script>
+</body>
+
+</html>
