@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level 2</title>
+    <link rel="stylesheet" href="../styles/level2.css" />
+    
+
+  </head>
+  <body>
+    <video autoplay muted loop id="seaVideo">
+      <source src="../assets/sea.mp4" type="video/mp4" />
+    </video>
+    <audio autoplay loop>
+      <source src="../assets/SeaAudio.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="correctAnswerAudio"><source src="../assets/correctAnswerAudio.mp3" type="audio/mpeg"></audio>
+    <audio id="wrongAnswerAudio"><source src="../assets/wrongAnswerAudio.mp3" type="audio/mpeg"></audio>
+
+    <img id="shipImage" src="../assets/ship.png" />
+
+    <label id="playerOne"><b>Player 1</b></label>
+    <label id="playerTwo"><b>Player 2</b></label>
+
+    <div id="quiz"></div>
+
+    <div id="timer">Time left: <span id="timeLeft">20</span> s</div>
+    <div id="scoreAlert">
+      <label id="alertText">text</label>
+      <button type="button" id="playAgain">Play Again</button>
+      <a href="./landinpage.html"><button type="button" id="quitToMenu">Quit</button></a>
+    </div>
+
+    <script src="../js/level2.js"></script>
+  </body>
+</html>

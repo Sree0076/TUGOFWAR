@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/feedback.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <title>Game Feedback</title>
+</head>
+<body>
+    <section>
+        <button type="button" id="displayFeedbackButton" class="buttonfb"  onclick="displayFeedbackShow()">Show feedbacks</button>
+        <button type="button" id="feedbackFormButton" class="buttonfb" onclick="displayFeedbackFormShow()">Post feedbacks</button>
+      
+    </section>
+  
+    <section>
+        <div class="container" id="container">
+           <div id="displayFeedback">
+           </div>
+            <div id="feedbackForm">
+                <div class="heading">
+                    <h3>Feedback Form</h3>
+                </div>
+                <div class="question1">
+                    <p class="question2">What was your favorite moment(s) in the game?</p>
+                    <input class="inputbox" id="favoriteMoment" placeholder="Type your Answer here..." type="text" required/>
+                </div><div class="question1">
+                    <p class="question2">What would you change about the game?</p>
+                    <input class="inputbox" id="aboutGame" placeholder="Type your Answer here..." type="text" required/>
+                </div>
+                <div class="question1">
+                    <p>Will you come back?</p>
+                    <div>
+                        <label>
+                            <input type="radio" id="comeback1" onclick="comeback(1)" name="comeback" value="1">
+                            <span class="imojis">&#128544;</span>
+                        </label>
+                        <label>
+                            <input type="radio" id="comeback2" onclick="comeback(2)" name="comeback" value="2">
+                            <span class="imojis">&#128529;</span>
+                        </label>
+                        <label>
+                            <input type="radio" id="comeback3" onclick="comeback(3)" name="comeback" value="3">
+                            <span class="imojis">&#128533;</span>
+                        </label>
+                        <label>
+                            <input type="radio" id="comeback4" onclick="comeback(4)" name="comeback" value="4">
+                            <span class="imojis">&#128527;</span>
+                        </label>
+                        <label>
+                            <input type="radio" id="comeback5" onclick="comeback(5)" name="comeback" value="5" checked>
+                            <span class="imojis">&#128512;</span>
+                        </label>
+                    </div>    
+                   
+                </div>
+                <div class="question1">
+                    <p>Will Your Recommend us To Friends?</p>
+                    <div class="goodorbad">
+                        <div class="thumbsup">
+                            <label>
+                                <input type="radio" id="thumbs1" name="thumbs"  onclick="thumbs(document.getElementById('thumbs2').value)" value="like" checked/>
+                                <img class="thumbs" src="../assets/icons8-thumbs-up-48.png" alt="thumbsup">
+                            </label>
+                        </div>
+                        <div class="thumbsdown">
+                            <label>
+                                <input type="radio" id="thumbs2" onclick="thumbs(document.getElementById('thumbs2').value)" name="thumbs" value="dislike"/>
+                                <img class="thumbs" src="../assets/icons8-thumbs-down-48.png" alt="thumbsdown">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+               
+                <button class="submitbutton" id="add"  type="button"> Submit </button>
+            </div>
+        </div>
+    </section>
+    <a href="landinpage.html">
+        <img src="/assets/backarrow.png" width="100px">
+      </a>
+ 
+    <!-- <script>getData()</script> -->
+    <script type="module" src="../js/feedback.js"></script>
+</body>
+</html>

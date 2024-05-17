@@ -1,0 +1,100 @@
+body {
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/background4.webp");
+}
+.img-container {
+    position: relative;
+}
+.image {
+    position: absolute;
+    left: 50%; 
+    top:90%;
+    transform: translateX(-10%); 
+    width: 300px; 
+    height: 300px;
+}
+
+
+.player-names {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+.player-names span {
+    flex: 1;
+    text-align: center;
+}
+.player-names .player1 {
+    text-align: left;
+    color: brown;
+    font-family: monospace;
+}
+.player-names .player2 {
+    text-align: right;
+    color: blue;
+    font-family: monospace;
+}
+.player-scores {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: rgb(14, 5, 65);
+}
+.player-scores span {
+    flex: 1;
+    text-align: center;
+}
+
+#timer, #counter {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+}
+
+#counter{
+    background-color: brown;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: monospace;
+}
+
+#counter{
+    visibility: hidden;
+     }
+.modal-content {
+     background-image: url("../assets/modal.gif");
+     background-size: cover;
+}
+
+
+
+.modal-title {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 45px;
+}
+
+.modal-body p {
+    font-size: 20px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: rgb(16, 15, 15);
+}

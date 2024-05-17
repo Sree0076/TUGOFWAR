@@ -1,0 +1,292 @@
+[
+    
+    {
+      "id": 1,
+      "question": "Three of these animals hibernate. Which one does not?",
+      "description": "",
+      "answers": {
+        "answer_a": "Mouse",
+        "answer_b": "Sloth",
+        "answer_c": "Frog",
+        "answer_d": "Snake",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "explanation": "",
+      "tip": null,
+      "tags": [],
+      "category": "",
+      "difficulty": ""
+    },
+  
+  
+    {
+      "id": 2,
+      "question": "All of these animals are omnivorous except one",
+      "description": "",
+      "answers": {
+        "answer_a": "Fox",
+        "answer_b": "Mouse",
+        "answer_c": "Opposum",
+        "answer_d": "Snail",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "true",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "explanation": "",
+      "tip": null,
+      "tags": [],
+      "category": "",
+      "difficulty": ""
+    },
+  
+  
+    {
+      "id": 3,
+      "question": "These are typical Australian animals except one",
+      "description": "",
+      "answers": {
+        "answer_a": "Snail",
+        "answer_b": "Fox",
+        "answer_c": "Mouse",
+        "answer_d": "Opposum",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "true",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "explanation": "",
+      "tip": null,
+      "tags": [],
+      "category": "",
+      "difficulty": ""
+    },
+  
+  
+    {
+      "id": 4,
+      "question": "Clouds are made up of these",
+      "description": "",
+      "answers": {
+        "answer_a": "Carbon atoms",
+        "answer_b": "Water droplets and ice crystals",
+        "answer_c": "Oxygen ions",
+        "answer_d": "Dust mites",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "explanation": "",
+      "tip": null,
+      "tags": [],
+      "category": "",
+      "difficulty": ""
+    },
+  
+  
+    {
+      "id": 5,
+      "question": "It is the only continent that does not have land areas below sea level",
+      "description": "",
+      "answers": {
+        "answer_a": "Australia",
+        "answer_b": "South America",
+        "answer_c": "Antarctica",
+        "answer_d": "North America",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "true",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "explanation": "",
+      "tip": null,
+      "tags": [],
+      "category": "",
+      "difficulty": ""
+    },
+  
+  
+    {
+      "id": 6,
+      "question": "Which of these organs has no known function in the human body?",
+      "description": "",
+      "answers": {
+        "answer_a": "Tonsils",
+        "answer_b": "Appendix",
+        "answer_c": "Uvula",
+        "answer_d": "Pineal gland",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "explanation": "",
+      "tip": null,
+      "tags": [],
+      "category": "",
+      "difficulty": ""
+    },
+  
+  
+    {
+      "id": 7,
+      "question": "What is the capital of Italy?",
+      "description": "",
+      "answers": {
+        "answer_a": "Venice",
+        "answer_b": "Rome",
+        "answer_c": "Naples",
+        "answer_d": "Milan",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "explanation": "",
+      "tip": null,
+      "tags": [],
+      "category": "",
+      "difficulty": ""
+    },
+  
+
+    {
+      "id": 8,
+      "question": "Which continents are entirely in the Southern Hemisphere?",
+      "description": "",
+      "answers": {
+        "answer_a": "South America, Africa, and Australia",
+        "answer_b": "Australia and Antarctica",
+        "answer_c": "South America, Australia and Antarctica",
+        "answer_d": "South America and Australia",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "explanation": "",
+      "tip": null,
+      "tags": [],
+      "category": "",
+      "difficulty": ""
+    },
+  
+  
+    {
+      "id": 9,
+      "question": "Which of these oceans has the greatest depth?",
+      "description": "",
+      "answers": {
+        "answer_a": "Pacific Ocean",
+        "answer_b": "Indian Ocean",
+        "answer_c": "Atlantic Ocean",
+        "answer_d": "Arctic Ocean",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "explanation": "",
+      "tip": null,
+      "tags": [],
+      "category": "",
+      "difficulty": ""
+    },
+  
+  
+    {
+      "id": 10,
+      "question": "Which of these games has Samuel L Jackson as a voice actor for a major character?",
+      "description": "",
+      "answers": {
+        "answer_a": "GTA Vice City",
+        "answer_b": "GTA III",
+        "answer_c": "GTA IV",
+        "answer_d": "GTA San Andreas",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "true",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "explanation": "",
+      "tip": null,
+      "tags": [],
+      "category": "",
+      "difficulty": ""
+    }
+  
+]

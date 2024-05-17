@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tug of War Game</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="../styles/level1.css" />
+</head>
+
+<body>
+    <div class="modalcontainer">
+        <div class="modal fade" id="instructionsModal" tabindex="-1" aria-labelledby="instructionsModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="instructionsModalLabel">
+                            Instructions
+                        </h5>
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                    </div>
+                    <div class="modal-body">
+                        <p>Player 1 controls: Use the 'A' key to pull left.</p>
+                        <p>Player 2 controls: Use the 'Enter' key to pull right.</p>
+                        <p>The objective is to pull the image to your side to win!</p>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="button" class="btn btn-success" onclick="startTimer();" data-bs-dismiss="modal">
+                            Got it!
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="player-names">
+        <span class="player1" id="palyer1_name">Player 1</span>
+        <span class="player2" id="palyer2_name">Player 2</span>
+    </div>
+    <div class="player-scores">
+        <span class="score1">Score: 0</span>
+        <span class="score2">Score: 0</span>
+        <div id="timer">Time left: <span id="time-left"></span> s</div>
+    </div>
+    <div id="counter">Next round in: <span id="counter-left"></span> s</div>
+
+    <div class="img-container">
+        <img class="image" src="../assets/people2.png" alt="Image" />
+    </div>
+
+    <div class="modal fade" id="winnerModalPlayer1" tabindex="-1" aria-labelledby="winnerModalLabelPlayer1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="winnerModalLabelPlayer1">
+                        Player 1 Wins!
+                    </h5>
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="navigateToPage()"></button> -->
+                </div>
+                <div class="modal-body">
+                    <p>Player 1 wins this level!</p>
+                    <p>Winner's Score is : <span id="dispscore1"></span></p>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-success" onclick="startGame()">
+                        Play Again
+                    </button>
+                    <a href="./landinpage.html"><button type="button" class="btn btn-success" >
+                        Main menu
+                    </button></a>
+                    <a  href="level2.html"> <button type="button" class="btn btn-success" >
+                        Go to Next Level
+                    </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="winnerModalPlayer2" tabindex="-1" aria-labelledby="winnerModalLabelPlayer2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="winnerModalLabelPlayer2">
+                        Player 2 Wins!
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <p>Player 2 wins this level!</p>
+                    <p>Winner's Score is : <span id="dispscore2"></span></p>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-success" onclick="startGame()">
+                        Play Again
+                    </button>
+                   <a  href="./landinpage.html"> <button type="button" class="btn btn-success" >
+                        Main menu
+                    </button></a>
+                    <a  href="level2.html"> <button type="button" class="btn btn-success" >
+                        Go to Next Level
+                    </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="winnerModalPlayer3" tabindex="-1" aria-labelledby="winnerModalLabelPlayer2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="winnerModalLabelPlayer2">Draw!</h5>
+                </div>
+
+                <div class="modal-body">
+                    <p>Its a Draw!!</p>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-success" onclick="startGame()">
+                        Play Again
+                    </button>
+                    <a  href="./landinpage.html"> <button type="button" class="btn btn-success" >
+                        Main menu
+                    </button></a>
+                    <a  href="level2.html"> <button type="button" class="btn btn-success" >
+                        Go to Next Level
+                    </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../js/level1.js"></script>
+</body>
+
+</html>
